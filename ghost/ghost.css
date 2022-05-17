@@ -122,7 +122,7 @@ body {
         overflow: inherit;
         position: fixed;
         width: 300px;
-        z-index: 1049;
+        z-index: 1039;
     }
 
     .navbar {

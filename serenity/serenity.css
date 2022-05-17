@@ -146,7 +146,7 @@ body {
         overflow: inherit;
         position: fixed;
         width: 225px;
-        z-index: 1049;
+        z-index: 1039;
     }
 
     .app {

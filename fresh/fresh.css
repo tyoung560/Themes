@@ -136,7 +136,7 @@ body {
         overflow: inherit;
         position: fixed;
         width: 225px;
-        z-index: 1049;
+        z-index: 1039;
     }
 
     .app {
@@ -213,7 +213,7 @@ body {
 }
 
 /* cascading indents */
-i {
+.navbar i {
     margin-right: 5px;
     font-size: 18px;
 }
