@@ -646,25 +646,7 @@ input[type='checkbox']:checked:hover:after {
 }
 
 /*=======================================*/
-/*.btn-success,.btn.btn-success {
-	color: #ffffff;
-	background-color: #28c76f;
-	border-color: #28c76f;
-	outline: unset !important;
-	border-radius: 5px;
-}
-.btn-success:hover,.btn.btn-success:hover {
-	color: #ffffff;
-	background-color: #26b666;
-	border-color: #26b666;
-}
-.btn-success:focus,.btn-success:active,.btn.btn-success:focus,.btn.btn-success:active{
-	color: #ffffff;
-	background-color: #26b666;
-	border-color: #26b666;
-	outline: unset !important;
-}
-*/
+
 .btn-success,
 .btn.btn-success {
     color: #ffffff;

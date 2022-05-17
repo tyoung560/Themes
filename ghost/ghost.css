@@ -189,7 +189,7 @@ body {
 }
 
 /* cascading indents */
-i {
+.navbar i {
     margin-right: 5px;
     font-size: 18px;
 }
