@@ -372,7 +372,7 @@ i {
 .t-datatable table a:not(.btn) {
     text-decoration: none;
 }
-
+/*
 .t-datatable input[type='checkbox'] {
     margin-top: -30px;
 }
@@ -424,7 +424,7 @@ input[type='checkbox']:checked:hover:after {
     border: 1px solid #ddd;
     box-shadow: unset;
 }
-
+*/
 .t-datatable .input-group-btn {
     border: 1px solid #ddd;
     background: none;
