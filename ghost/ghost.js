@@ -1,4 +1,4 @@
-TB.render('component_layout_3', function (data) {
+TB.themeRender(function($){
   var verticalNav = document.getElementsByClassName(
     'x-menu-style-vertical'
   ).length > 0;
