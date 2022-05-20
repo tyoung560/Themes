@@ -168,7 +168,6 @@ body {
         border: none;
         height: 100%;
         padding: 2rem 0;
-        overflow: auto;
     }
 
     .x-menu-style-vertical .navbar {
@@ -198,13 +197,8 @@ body {
     padding-left: 0;
 }
 
-/* CHILD ITEM FONT STYLE 
-.dropdown-submenu>a>span {
-}
-*/
-
 /* HIDE HOVER MENU */
-.dropdown-submenu:hover>.dropdown-menu {
+.x-menu-style-vertical .dropdown-submenu:hover>.dropdown-menu {
     display: none;
 }
 
