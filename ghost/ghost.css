@@ -132,6 +132,10 @@ body {
         border-radius: 0;
         padding: 25px;
     }
+
+    .app {
+        margin-top: 2rem;
+    }
 }
 
 .navbar {
