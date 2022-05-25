@@ -77,8 +77,8 @@ body {
 
 /* ###### TABLE ACTIONS ###### */
 .table-actions {
-    background: transparent;
-    border: none;
+    background: transparent !important;
+    border: none !important;
 }
 
 .table-actions button.btn.btn-default {
