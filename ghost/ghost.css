@@ -864,7 +864,7 @@ input[type='checkbox']:checked:hover:after {
     outline: unset !important;
 }
 
-/*=======================================*/
+/*======================================*/
 .btn-danger,
 .btn.btn-danger {
     color: #ffffff;
