@@ -14,7 +14,7 @@ a {
 
 /* ###### EXTRAS ####### */
 .t-pagecontainer .t-row {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .t-datatable h3,
@@ -34,6 +34,27 @@ a {
     font-size: 2rem;
     color: #181C32;
     margin: 0rem 0rem 1rem 0rem;
+}
+
+.t-datatable,
+.t-list,
+.t-form,
+.t-detail,
+.t-search,
+.t-map,
+.t-accordion,
+.t-logincomponent,
+.t-signupcomponent,
+.t-profilecomponent,
+.t-chart,
+.x-type-resource,
+.t-kanban,
+.t-timeline,
+.t-calendar,
+.t-html,
+.t-pivottable
+ {
+    margin-bottom: 25px;
 }
 
 ::-webkit-scrollbar {
