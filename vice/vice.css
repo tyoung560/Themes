@@ -52,8 +52,7 @@ a {
 .t-timeline,
 .t-calendar,
 .t-html,
-.t-pivottable
- {
+.t-pivottable {
     margin-bottom: 25px;
 }
 
@@ -116,6 +115,7 @@ body {
 @media (max-width: 768px) {
     body {
         overflow: auto;
+        background: #F6F6F8;
     }
 }
 
@@ -156,6 +156,12 @@ body {
     margin-top: 25px;
 }
 
+.navbar {
+    background: #fff;
+    border: none;
+    border-radius: 2rem;
+}
+
 /* ###### MENU ###### */
 @media (min-width: 768px) {
     .x-menu-style-vertical {
@@ -171,7 +177,6 @@ body {
     }
 
     .app {
-        /*margin-left: 225px;*/
         padding: 4rem;
         margin: 2rem;
         background: #fff;
@@ -191,91 +196,85 @@ body {
     .x-menu-style-vertical .navbar {
         border-radius: 0 2rem 2rem 0;
     }
-}
 
-.navbar {
-    background: #fff;
-    border: none;
-    border-radius: 2rem;
-}
+    /* PARENT ITEM FONT STYLE */
+    .navbar ul>li {
+        font-size: 14px;
+        font-weight: 700;
+        margin: 5px 5px 5px 10px;
+    }
 
-/* PARENT ITEM FONT STYLE */
-.navbar ul>li {
-    font-size: 14px;
-    font-weight: 700;
-    margin: 5px 5px 5px 10px;
-}
+    .navbar li a {
+        color: #777 !important;
+    }
 
-.navbar li a {
-    color: #777 !important;
-}
+    .navbar-collapse {
+        padding-right: 0;
+        padding-left: 0;
+    }
 
-.navbar-collapse {
-    padding-right: 0;
-    padding-left: 0;
-}
+    /* HIDE HOVER MENU */
+    .x-menu-style-vertical .dropdown-submenu:hover>.dropdown-menu {
+        display: none;
+    }
 
-/* HIDE HOVER MENU */
-.x-menu-style-vertical .dropdown-submenu:hover>.dropdown-menu {
-    display: none;
-}
+    /* DROPDOWN MENU BACKGROUND COLOR */
+    .navbar-default .dropdown-menu>li>a {
+        background: #fff;
+    }
 
-/* DROPDOWN MENU BACKGROUND COLOR */
-.navbar-default .dropdown-menu>li>a {
-    background: #fff;
-}
+    /* MENU ITEM HOVER */
+    .navbar-default .navbar-nav>li>a:hover {
+        text-decoration: none;
+        color: #7367f0 !important;
+        background-color: #fff;
+        border-radius: 10px;
+    }
 
-/* MENU ITEM HOVER */
-.navbar-default .navbar-nav>li>a:hover {
-    text-decoration: none;
-    color: #7367f0 !important;
-    background-color: #fff;
-    border-radius: 10px;
-}
+    /* DROPDOWN MENU ITEM HOVER */
+    .navbar-default .dropdown-menu>li>a:hover,
+    .navbar-default .dropdown-menu>li>a:focus {
+        text-decoration: none;
+        color: #7367f0 !important;
+        background-color: #fff;
+        border-radius: 10px;
+    }
 
-/* DROPDOWN MENU ITEM HOVER */
-.navbar-default .dropdown-menu>li>a:hover,
-.navbar-default .dropdown-menu>li>a:focus {
-    text-decoration: none;
-    color: #7367f0 !important;
-    background-color: #fff;
-    border-radius: 10px;
-}
+    /* cascading indents */
+    .navbar i {
+        margin-right: 5px;
+        font-size: 18px;
+    }
 
-/* cascading indents */
-.navbar i {
-    margin-right: 5px;
-    font-size: 18px;
-}
+    .dropdown-menu i {
+        margin-left: 25px;
+    }
 
-.dropdown-menu i {
-    margin-left: 25px;
-}
+    .dropdown-menu .dropdown-menu i {
+        margin-left: 50px;
+    }
 
-.dropdown-menu .dropdown-menu i {
-    margin-left: 50px;
-}
+    .dropdown-menu .dropdown-menu .dropdown-menu i {
+        margin-left: 75px;
+    }
 
-.dropdown-menu .dropdown-menu .dropdown-menu i {
-    margin-left: 75px;
-}
+    .navbar-default .fal {
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 10px;
+    }
 
-.navbar-default .fal {
-    font-size: 16px;
-    font-weight: 500;
-    margin-right: 10px;
-}
+    .navbar-default .fa {
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 10px;
+    }
 
-.navbar-default .fa {
-    font-size: 16px;
-    font-weight: 500;
-    margin-right: 10px;
-}
-
-.navbar-default .fas {
-    font-size: 16px;
-    font-weight: 500;
-    margin-right: 10px;
+    .navbar-default .fas {
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 10px;
+    }
 }
 
 /* ####### LIST ####### */
@@ -380,6 +379,7 @@ body {
 .t-datatable table a:not(.btn) {
     text-decoration: none;
 }
+
 /*
 .t-datatable input[type='checkbox'] {
     margin-top: -30px;
