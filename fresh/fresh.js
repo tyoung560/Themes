@@ -1,10 +1,15 @@
-TB.themeRender(function ($) {
-  var width = $(".x-menu-style-vertical").width();
-  var offset = width + 0;
-  if (window.matchMedia('(min-width: 768px)').matches) {
+TB.themeRender(function($){
+  var verticalNav = document.getElementsByClassName(
+    'x-menu-style-vertical'
+  ).length > 0; // check if vertical menu class exists in DOM
+
+  var width = $(".x-menu-style-vertical").width(); // get vertical menu width
+  var offset = width + 25; //add pixels to veritcal menu width
+
+  if (verticalNav) {
     $(".app").css({
       "margin-left": offset + "px"
-    });
+    }); // add margin to app class to shift app away from vertical menu
 
     $(".navbar").css({
       "overflow": "auto"
@@ -28,3 +33,11 @@ TB.themeRender(function ($) {
     console.log('horizontal menu');
   }
 });
+
+var width = $(".x-menu-style-vertical").width();
+var offset = width + 0;
+if (window.matchMedia('(min-width: 768px)').matches) {
+  $(".app").css({
+    "margin-left": offset + "px"
+  });
+} 
