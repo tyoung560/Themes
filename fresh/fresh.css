@@ -594,15 +594,18 @@ input[type='checkbox']:checked:hover:after {
 }
 
 /* ###### BUTTONS ###### */
+.btn-default i,
 .btn-primary i,
 .btn-success i,
+.btn-info i,
 .btn-warning i,
 .btn-danger i {
     color: #fff !important;
 }
 
-.btn-info i {
-    color: #555 !important;
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .btn-default,
@@ -658,8 +661,6 @@ input[type='checkbox']:checked:hover:after {
     outline: unset !important;
 }
 
-/*=======================================*/
-
 .btn-success,
 .btn.btn-success {
     color: #ffffff;
@@ -690,7 +691,7 @@ input[type='checkbox']:checked:hover:after {
 
 .btn-info,
 .btn.btn-info {
-    color: #fff;
+    color: #ffffff;
     background-color: #7E87F1;
     border-color: #7E87F1;
     outline: unset !important;
@@ -699,7 +700,7 @@ input[type='checkbox']:checked:hover:after {
 
 .btn-info:hover,
 .btn.btn-info:hover {
-    color: #fff;
+    color: #ffffff;
     background-color: #6b74db;
     border-color: #6b74db;
 }
@@ -708,7 +709,7 @@ input[type='checkbox']:checked:hover:after {
 .btn-info:active,
 .btn.btn-info:focus,
 .btn.btn-info:active {
-    color: #fff;
+    color: #ffffff;
     background-color: #6b74db;
     border-color: #6b74db;
     outline: unset !important;
@@ -768,7 +769,15 @@ input[type='checkbox']:checked:hover:after {
     outline: unset !important;
 }
 
-/* ============== BUTTON OUTLINE ================ */
+/* ###### BUTTONS OUTLINED ###### */
+.btn-outline.btn-default i {
+    color: #616060 !important;
+}
+
+.btn-outline.btn-default:hover i {
+    color: #fff !important;
+}
+
 .btn-outline.btn-default,
 .btn-outline.btn.btn-default {
     color: #616060;
@@ -796,6 +805,14 @@ input[type='checkbox']:checked:hover:after {
 }
 
 /*=======================================*/
+.btn-outline.btn-primary i {
+    color: #414583 !important;
+}
+
+.btn-outline.btn-primary:hover i {
+    color: #fff !important;
+}
+
 .btn-outline.btn-primary,
 .btn-outline.btn.btn-primary {
     color: #414583;
@@ -823,6 +840,13 @@ input[type='checkbox']:checked:hover:after {
 }
 
 /*=======================================*/
+.btn-outline.btn-success i {
+    color: #1BC5BD !important;
+}
+
+.btn-outline.btn-success:hover i {
+    color: #fff !important;
+}
 
 .btn-outline.btn-success,
 .btn-outline.btn.btn-success {
@@ -851,6 +875,13 @@ input[type='checkbox']:checked:hover:after {
 }
 
 /*=======================================*/
+.btn-outline.btn-info i {
+    color: #7E87F1 !important;
+}
+
+.btn-outline.btn-info:hover i {
+    color: #fff !important;
+}
 
 .btn-outline.btn-info,
 .btn-outline.btn.btn-info {
@@ -863,7 +894,7 @@ input[type='checkbox']:checked:hover:after {
 
 .btn-info:hover,
 .btn.btn-info:hover {
-    color: #fff;
+    color: #ffffff;
     background-color: #6b74db;
     border-color: #6b74db;
 }
@@ -872,13 +903,21 @@ input[type='checkbox']:checked:hover:after {
 .btn-info:active,
 .btn.btn-info:focus,
 .btn.btn-info:active {
-    color: #fff;
+    color: #ffffff;
     background-color: #6b74db;
     border-color: #6b74db;
     outline: unset !important;
 }
 
 /*=======================================*/
+.btn-outline.btn-warning i {
+    color: #ff9f43 !important;
+}
+
+.btn-outline.btn-warning:hover i {
+    color: #fff !important;
+}
+
 .btn-outline.btn-warning,
 .btn-outline.btn.btn-warning {
     color: #ff9f43;
@@ -906,6 +945,14 @@ input[type='checkbox']:checked:hover:after {
 }
 
 /*=======================================*/
+.btn-outline.btn-danger i {
+    color: #f44336 !important;
+}
+
+.btn-outline.btn-danger:hover i {
+    color: #fff !important;
+}
+
 .btn-outline.btn-danger,
 .btn-outline.btn.btn-danger {
     color: #f44336;
@@ -930,12 +977,4 @@ input[type='checkbox']:checked:hover:after {
     background-color: #db3d32;
     border-color: #db3d32;
     outline: unset !important;
-}
-
-
-/*=======================================*/
-
-.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
