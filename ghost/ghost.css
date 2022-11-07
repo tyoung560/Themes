@@ -993,7 +993,7 @@ input[type='checkbox']:checked:hover:after {
 
 .btn-info:hover,
 .btn.btn-info:hover {
-    color: #333;
+    color: #333 !important;
     background-color: #F2CB40;
     border-color: #F2CB40;
 }
@@ -1002,7 +1002,7 @@ input[type='checkbox']:checked:hover:after {
 .btn-info:active,
 .btn.btn-info:focus,
 .btn.btn-info:active {
-    color: #333;
+    color: #333 !important;
     background-color: #F2CB40;
     border-color: #F2CB40;
     outline: unset !important;
