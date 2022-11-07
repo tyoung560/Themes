@@ -690,27 +690,27 @@ input[type='checkbox']:checked:hover:after {
 
 .btn-info,
 .btn.btn-info {
-    color: #555;
-    background-color: #A8BDD8;
-    border-color: #A8BDD8;
+    color: #fff;
+    background-color: #7E87F1;
+    border-color: #7E87F1;
     outline: unset !important;
     border-radius: 5px;
 }
 
 .btn-info:hover,
 .btn.btn-info:hover {
-    color: #555;
-    background-color: #99ACCD;
-    border-color: #99ACCD;
+    color: #fff;
+    background-color: #6b74db;
+    border-color: #6b74db;
 }
 
 .btn-info:focus,
 .btn-info:active,
 .btn.btn-info:focus,
 .btn.btn-info:active {
-    color: #555;
-    background-color: #99ACCD;
-    border-color: #99ACCD;
+    color: #fff;
+    background-color: #6b74db;
+    border-color: #6b74db;
     outline: unset !important;
 }
 
@@ -864,8 +864,8 @@ input[type='checkbox']:checked:hover:after {
 .btn-info:hover,
 .btn.btn-info:hover {
     color: #fff;
-    background-color: #7E87F1;
-    border-color: #7E87F1;
+    background-color: #6b74db;
+    border-color: #6b74db;
 }
 
 .btn-info:focus,
@@ -873,8 +873,8 @@ input[type='checkbox']:checked:hover:after {
 .btn.btn-info:focus,
 .btn.btn-info:active {
     color: #fff;
-    background-color: #7E87F1;
-    border-color: #7E87F1;
+    background-color: #6b74db;
+    border-color: #6b74db;
     outline: unset !important;
 }
 
