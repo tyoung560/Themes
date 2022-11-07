@@ -903,7 +903,11 @@ input[type='checkbox']:checked:hover:after {
 
 /* ###### BUTTONS OUTLINED ###### */
 .btn-outline.btn-default i {
-    color: #616060;
+    color: #616060 !important;
+}
+
+.btn-outline.btn-default:hover i {
+    color: #fff !important;
 }
 
 .btn-outline.btn-default,
@@ -934,7 +938,11 @@ input[type='checkbox']:checked:hover:after {
 
 /*=======================================*/
 .btn-outline.btn-primary i {
-    color: #235FE4;
+    color: #235FE4 !important;
+}
+
+.btn-outline.btn-primary:hover i {
+    color: #fff !important;
 }
 
 .btn-outline.btn-primary,
@@ -965,7 +973,11 @@ input[type='checkbox']:checked:hover:after {
 
 /*=======================================*/
 .btn-outline.btn-success i {
-    color: #439A86;
+    color: #439A86 !important;
+}
+
+.btn-outline.btn-success:hover i {
+    color: #fff !important;
 }
 
 .btn-outline.btn-success,
@@ -996,7 +1008,11 @@ input[type='checkbox']:checked:hover:after {
 
 /*=======================================*/
 .btn-outline.btn-info i {
-    color: #333;
+    color: #333 !important;
+}
+
+.btn-outline.btn-info:hover i {
+    color: #333 !important;
 }
 
 .btn-outline.btn-info,
@@ -1026,8 +1042,12 @@ input[type='checkbox']:checked:hover:after {
 }
 
 /*=======================================*/
-.btn-outline.btn-info i {
-    color: #EA7E1F;
+.btn-outline.btn-warning i {
+    color: #EA7E1F !important;
+}
+
+.btn-outline.btn-warning:hover i {
+    color: #fff !important;
 }
 
 .btn-outline.btn-warning,
@@ -1057,8 +1077,12 @@ input[type='checkbox']:checked:hover:after {
 }
 
 /*======================================*/
-.btn-outline.btn-info i {
-    color: #F95738;
+.btn-outline.btn-danger i {
+    color: #F95738 !important;
+}
+
+.btn-outline.btn-danger:hover i {
+    color: #fff !important;
 }
 
 .btn-outline.btn-danger,
