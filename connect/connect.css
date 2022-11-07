@@ -263,7 +263,7 @@ body {
 
 .list-row-item {
     border: none !important;
-    box-shadow: 0 0 20px rgb(8 21 66 / 5%);
+    box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px 0px, rgba(0, 0, 0, 0.08) 0 0 0 1px !important;
     border-radius: 2rem !important;
     overflow: hidden;
     margin-bottom: 25px;
@@ -292,11 +292,10 @@ body {
 }
 
 /* ###### TABLES ######  */
-.t-datatable .table-wrap {
+.t-datatable {
     background: #fff;
-    border-radius: 2rem !important;
+    border-radius: 2rem;
     padding: 20px !important;
-    background: #fff;
     box-shadow: 0 0 20px rgb(8 21 66 / 5%);
 }
 
@@ -956,3 +955,150 @@ body {
     border-color: #B40D1D;
     outline: unset !important;
 }
+
+/* ######## DATE PICKER ####### */
+.t-form-date .btn-default {
+    background: #0061FF;
+    border: 2px solid #0061FF;
+    border-radius: 1rem;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+}
+
+.t-form-date .btn-default:hover {
+    background-color: #0A58CA;
+    border-color: #0A58CA;
+}
+
+.t-form-date .btn-default:focus,
+.t-form-date .btn-default:active {
+    background-color: #0A58CA;
+    border-color: #0A58CA;
+    outline: unset !important;
+}
+
+.uib-left {
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    padding: 5px;
+    text-align: center !important;
+}
+.uib-left i {
+    color: #000 !important;
+    margin-left: 0px;
+}
+
+.uib-title {
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    padding: 5px;
+    text-align: center !important;
+    color: #000 !important;
+}
+.uib-title i {
+    color: #000 !important;
+    margin-left: 0px;
+}
+
+.uib-right {
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    padding: 5px;
+    text-align: center !important;
+}
+.uib-right i {
+    color: #000 !important;
+    margin-left: 0px;
+}
+
+.uib-day {
+    background-color: #fff !important;
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 5px;
+    text-align: center !important;
+}
+.uib-day button {
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    padding: 5px;
+    text-align: center !important;
+    color: #000 !important;
+}
+.uib-day .btn-info {
+    background-color: #0061FF !important;
+    color: #fff !important;
+}
+
+.uib-month {
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    padding: 5px;
+    text-align: center !important;
+}
+.uib-month button {
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    padding: 5px;
+    text-align: center !important;
+    color: #000 !important;
+}
+.uib-month .btn-info {
+    background-color: #0061FF !important;
+    color: #fff !important;
+}
+
+.uib-year {
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    padding: 5px;
+    text-align: center !important;
+}
+.uib-year button {
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    padding: 5px;
+    text-align: center !important;
+    color: #000 !important;
+}
+.uib-year .btn-info {
+    background-color: #0061FF !important;
+    color: #fff !important;
+}
+
+
+.datetime-picker-dropdown li .btn-group.pull-left .btn-default {
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    padding: 10px;
+    text-align: center !important;
+    color: #000;
+    margin: 5px;
+}
+
+.datetime-picker-dropdown li .btn-group.pull-right .btn-default {
+    background-color: #DC3545 !important;
+    border: 1px solid #DC3545 !important;
+    border-radius: 5px !important;
+    padding: 10px;
+    text-align: center !important;
+    color: #fff;
+}
+
+.datetime-picker-dropdown tr th,
+.datetime-picker-dropdown tr td {
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+
