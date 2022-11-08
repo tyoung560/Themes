@@ -17,6 +17,85 @@ a {
     margin-bottom: 25px;
 }
 
+input[type="checkbox"] {
+    appearance: none;
+    background-color: #dfe1e4;
+    border-radius: 72px;
+    border-style: none;
+    flex-shrink: 0;
+    height: 20px;
+    margin: 0;
+    position: relative;
+    width: 30px;
+}
+input[type="checkbox"]::before {
+    bottom: -6px;
+    content: "";
+    left: -6px;
+    position: absolute;
+    right: -6px;
+    top: -6px;
+}
+input[type="checkbox"],
+input[type="checkbox"]::after {
+    transition: all 100ms ease-out;
+}
+input[type="checkbox"]::after {
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+    height: 14px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    width: 14px;
+}
+input[type="checkbox"] {
+    cursor: default;
+}
+input[type="checkbox"]:hover {
+    background-color: #c9cbcd;
+    transition-duration: 0s;
+}
+input[type="checkbox"]:checked {
+    background-color: #00BF5C;
+}
+input[type="checkbox"]:checked::after {
+    background-color: #fff;
+    left: 13px;
+}
+input[type="checkbox"]:checked:hover {
+    background-color: #00BF5C !important;
+    transition-duration: 0s;
+}
+input[type="checkbox"]:checked:hover::after {
+    background-color: #fff;
+    left: 13px;
+}
+input[type="checkbox"]:focus:not(.focus-visible) {
+    outline: 0;
+}
+
+.tb-checkbox label.text-center.tb-checkbox span {
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+label.text-center.tb-checkbox span {
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.t-form-checkbox i {
+    line-height: 0.75;
+    margin-left: 10px;
+}
+
+.t-form-checkbox span {
+    margin-right: 10px;
+    margin-left: 3px !important;
+}
+
 .t-datatable h3,
 .t-list h3,
 .t-form h3,
