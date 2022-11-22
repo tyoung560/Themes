@@ -215,10 +215,10 @@ body {
 
     /* cascading indents */
     .navbar-nav li>a>i {
-        padding-right: 5px;
-        width: 25px;
+        padding-right: 5px !important;
+        width: 25px !important;
     }
-    
+
     .navbar i {
         margin-right: 5px;
         font-size: 18px;
