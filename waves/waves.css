@@ -245,46 +245,46 @@ body {
         display: none;
     }
 
-/* cascading indents */
-.navbar-nav li>a>i {
-    padding-right: 5px;
-    width: 25px;
-}
+    /* cascading indents */
+    .navbar-nav li>a>i {
+        padding-right: 5px;
+        width: 25px;
+    }
 
-.navbar i {
-    margin-right: 5px;
-    font-size: 18px;
-}
+    .navbar i {
+        margin-right: 5px;
+        font-size: 18px;
+    }
 
-.dropdown-menu i {
-    margin-left: 25px;
-}
+    .dropdown-menu i {
+        margin-left: 25px;
+    }
 
-.dropdown-menu .dropdown-menu i {
-    margin-left: 50px;
-}
+    .dropdown-menu .dropdown-menu i {
+        margin-left: 50px;
+    }
 
-.dropdown-menu .dropdown-menu .dropdown-menu i {
-    margin-left: 75px;
-}
+    .dropdown-menu .dropdown-menu .dropdown-menu i {
+        margin-left: 75px;
+    }
 
-.navbar-default .fal {
-    font-size: 16px;
-    font-weight: 500;
-    margin-right: 5px;
-}
+    .navbar-default .fal {
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 5px;
+    }
 
-.navbar-default .fa {
-    font-size: 16px;
-    font-weight: 500;
-    margin-right: 5px;
-}
+    .navbar-default .fa {
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 5px;
+    }
 
-.navbar-default .fas {
-    font-size: 16px;
-    font-weight: 500;
-    margin-right: 5px;
-}
+    .navbar-default .fas {
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 5px;
+    }
 }
 
 /* ####### LIST ####### */
@@ -1026,6 +1026,7 @@ input[type='checkbox']:checked:hover:after {
     padding: 5px;
     text-align: center !important;
 }
+
 .uib-left i {
     color: #000 !important;
     margin-left: 0px;
@@ -1039,6 +1040,7 @@ input[type='checkbox']:checked:hover:after {
     text-align: center !important;
     color: #000 !important;
 }
+
 .uib-title i {
     color: #000 !important;
     margin-left: 0px;
@@ -1051,6 +1053,7 @@ input[type='checkbox']:checked:hover:after {
     padding: 5px;
     text-align: center !important;
 }
+
 .uib-right i {
     color: #000 !important;
     margin-left: 0px;
@@ -1063,6 +1066,7 @@ input[type='checkbox']:checked:hover:after {
     padding: 5px;
     text-align: center !important;
 }
+
 .uib-day button {
     background-color: #fff !important;
     border: 1px solid #ddd !important;
@@ -1071,6 +1075,7 @@ input[type='checkbox']:checked:hover:after {
     text-align: center !important;
     color: #000 !important;
 }
+
 .uib-day .btn-info {
     background-color: #414583 !important;
     color: #fff !important;
@@ -1083,6 +1088,7 @@ input[type='checkbox']:checked:hover:after {
     padding: 5px;
     text-align: center !important;
 }
+
 .uib-month button {
     background-color: #fff !important;
     border: 1px solid #ddd !important;
@@ -1091,6 +1097,7 @@ input[type='checkbox']:checked:hover:after {
     text-align: center !important;
     color: #000 !important;
 }
+
 .uib-month .btn-info {
     background-color: #414583 !important;
     color: #fff !important;
@@ -1103,6 +1110,7 @@ input[type='checkbox']:checked:hover:after {
     padding: 5px;
     text-align: center !important;
 }
+
 .uib-year button {
     background-color: #fff !important;
     border: 1px solid #ddd !important;
@@ -1111,6 +1119,7 @@ input[type='checkbox']:checked:hover:after {
     text-align: center !important;
     color: #000 !important;
 }
+
 .uib-year .btn-info {
     background-color: #414583 !important;
     color: #fff !important;
