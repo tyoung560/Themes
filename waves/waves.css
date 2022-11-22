@@ -245,41 +245,46 @@ body {
         display: none;
     }
 
-    /* cascading indents */
-    .navbar i {
-        margin-right: 5px;
-        font-size: 18px;
-    }
+/* cascading indents */
+.navbar-nav li>a>i {
+    padding-right: 5px;
+    width: 25px;
+}
 
-    .dropdown-menu i {
-        margin-left: 25px;
-    }
+.navbar i {
+    margin-right: 5px;
+    font-size: 18px;
+}
 
-    .dropdown-menu .dropdown-menu i {
-        margin-left: 50px;
-    }
+.dropdown-menu i {
+    margin-left: 25px;
+}
 
-    .dropdown-menu .dropdown-menu .dropdown-menu i {
-        margin-left: 75px;
-    }
+.dropdown-menu .dropdown-menu i {
+    margin-left: 50px;
+}
 
-    .navbar-default .fal {
-        font-size: 16px;
-        font-weight: 500;
-        margin-right: 10px;
-    }
+.dropdown-menu .dropdown-menu .dropdown-menu i {
+    margin-left: 75px;
+}
 
-    .navbar-default .fa {
-        font-size: 16px;
-        font-weight: 500;
-        margin-right: 10px;
-    }
+.navbar-default .fal {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 5px;
+}
 
-    .navbar-default .fas {
-        font-size: 16px;
-        font-weight: 500;
-        margin-right: 10px;
-    }
+.navbar-default .fa {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.navbar-default .fas {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 5px;
+}
 }
 
 /* ####### LIST ####### */
