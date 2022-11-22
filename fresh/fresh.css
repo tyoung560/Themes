@@ -56,20 +56,6 @@ a {
     margin-bottom: 25px;
 }
 
-/*
-::-webkit-scrollbar {
-    width: 40px;
-}
-
-::-webkit-scrollbar-thumb {
-    border: 15px solid rgba(0, 0, 0, 0);
-    background-clip: padding-box;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.15);
-}
-*/
-
 .pagination>.active>a,
 .pagination>.active>a:focus,
 .pagination>.active>a:hover,
