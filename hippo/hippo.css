@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /* App Fonts */
 p,
 span,
@@ -69,7 +71,7 @@ input[type="checkbox"]:checked:hover {
     transition-duration: 0s;
 }
 input[type="checkbox"]:checked:hover::after {
-    background-color: #fff;
+    background-color: #fff !important;
     left: 13px;
 }
 input[type="checkbox"]:focus:not(.focus-visible) {
@@ -134,7 +136,7 @@ label.text-center.tb-checkbox span {
 .t-logincomponent h3,
 .t-signupcomponent h3,
 .t-profilecomponent h3,
-.t-chart {
+.t-chart h3 {
     padding-bottom: 2rem;
     font-weight: 500;
     font-size: 2rem;
@@ -1196,6 +1198,36 @@ body {
 
 
 /* ########## DATEPICKER ######## */
+.t-form-daterange .btn-default,
+.t-form-datetime .btn-default {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+}
+
+.t-form-daterange .btn-default:hover,
+.t-form-datetime .btn-default:hover {
+    background-color: #eee;
+    border-color: #000;
+    border-radius: 1rem !important;
+}
+
+.t-form-daterange .btn-default:focus,
+.t-form-daterange .btn-default:active,
+.t-form-datetime .btn-default:focus,
+.t-form-datetime .btn-default:active
+{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 0 1rem 1rem 0 !important;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+}
+
 .uib-left,
 .uib-right,
 .uib-title {

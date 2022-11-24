@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* App Fonts */
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+a {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* ###### EXTRAS ####### */
 .t-pagecontainer .t-row {
     margin-bottom: 25px;
@@ -14,9 +30,8 @@
 .t-logincomponent h3,
 .t-signupcomponent h3,
 .t-profilecomponent h3,
-.t-chart {
+.t-chart h3 {
     padding-bottom: 2rem;
-    padding-left: 15px;
     font-weight: 700;
     font-size: 2.5rem;
     color: #181C32;
