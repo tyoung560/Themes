@@ -240,8 +240,7 @@ label.text-center.tb-checkbox span {
 .table-actions {
     background: transparent !important;
     border: none !important;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 5px 0 !important;
     margin: 8px 0;
 }
 
