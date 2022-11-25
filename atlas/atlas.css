@@ -427,21 +427,25 @@ body {
 .navbar {
     background: transparent;
     border: none;
-    height: 35px;
-    margin-bottom: 0px;
-}
-
-.navbar ul>li {
-    margin: 12px 10px !important;
-}
-
-.navbar ul>li:not(:first-child) {
-    margin: 17px 10px !important;
 }
 
 .navbar ul>li:first-child img {
-    margin-right: 30px;
+    margin: 0px 10px 0px 0px !important;
 }
+
+.navbar ul>li {
+    margin: 17px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    height:25px;
+} 
+
+.navbar ul>li a {
+    display: table-cell !important;
+    vertical-align: bottom !important;
+    height: 25px;
+}
+
 
 .navbar li a {
     color: #555 !important;
@@ -482,6 +486,13 @@ body {
         z-index: 1039;
     }
 
+    .navbar {
+        background: transparent;
+        border: none;
+        height: 35px;
+        margin-bottom: 0px;
+    }
+
     .app {
         margin: 1rem;
     }
@@ -509,13 +520,13 @@ body {
         margin: 5px 10px;
     }
     
-    .navbar ul>li {
+    .x-menu-style-vertical .navbar ul>li {
         font-size: 14px;
         font-weight: 700;
         margin: 5px 10px;
     }
     
-    .navbar ul>li:first-child {
+    .x-menu-style-vertical .navbar ul>li:first-child {
         font-size: 14px;
         font-weight: 700;
         margin: 5px 10px 5px 0px;
@@ -532,6 +543,11 @@ body {
     }
 
     /* cascading indents */
+    .navbar-nav li>a>i {
+        padding-right: 5px !important;
+        width: 25px !important;
+    }
+
     .navbar i {
         margin-right: 5px;
         font-size: 18px;
@@ -552,19 +568,19 @@ body {
     .navbar-default .fal {
         font-size: 16px;
         font-weight: 500;
-        margin-right: 10px;
+        margin-right: 5px;
     }
 
     .navbar-default .fa {
         font-size: 16px;
         font-weight: 500;
-        margin-right: 10px;
+        margin-right: 5px;
     }
 
     .navbar-default .fas {
         font-size: 16px;
         font-weight: 500;
-        margin-right: 10px;
+        margin-right: 5px;
     }
 }
 
