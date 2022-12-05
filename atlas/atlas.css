@@ -586,19 +586,19 @@ body {
 
 /* ####### LIST ####### */
 
-.list-layout-size-1,
-.list-layout-size-2,
-.list-layout-size-3,
+/*.list-layout-size-12,
+.list-layout-size-6,
 .list-layout-size-4,
-.list-layout-size-6 {
+.list-layout-size-3,
+.list-layout-size-2 {
     background-color: #fff;
     border-radius: 5px;
     border: 1px solid #c7c7c7 !important;
     margin-bottom: 25px;
     padding: 1rem;
-    margin-left: 0px;
-    margin-right: 0px;
-}
+    margin-left: 0;
+    margin-right: 0;
+}*/
 
 .list-body {
     background-color: #fff;
