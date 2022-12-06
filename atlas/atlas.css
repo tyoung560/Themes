@@ -598,7 +598,7 @@ body {
     padding: 1rem;
     margin-left: 0;
     margin-right: 0;
-}*/
+}
 
 .list-body {
     background-color: #fff;
@@ -606,6 +606,21 @@ body {
     border: 1px solid #c7c7c7 !important;
     margin-bottom: 25px;
     padding: 1rem;
+}
+*/
+
+.pad-0 { /*loads in tables - adjusted here for compatability with lists */
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.list-row-item {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #c7c7c7;
+    margin-top: 1px !important;
+    margin-bottom: 25px !important;
+    padding: 0rem 1rem !important;
 }
 
 /* ###### TABLES ######  */
@@ -717,9 +732,11 @@ body {
 }
 
 /* ###### CARD ###### */
+/*
 .t-card .af-card-component {
     border: none;
 }
+*/
 
 /* ###### BUTTONS ###### */
 .btn-primary i,

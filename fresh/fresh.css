@@ -580,9 +580,9 @@ input[type='checkbox']:checked:hover:after {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
-.t-card .af-card-component {
+/* .t-card .af-card-component {
     border: none;
-}
+} */
 
 /* ###### BUTTONS ###### */
 .btn-default i,
