@@ -361,7 +361,7 @@ body {
 .x-type-resource h3,
 .t-kanban h3,
 .t-timeline h3,
-.t-calenda h3,
+.t-calendar h3,
 .t-html h3,
 .t-pivottable h3 {
     font-weight: 500;
@@ -732,6 +732,9 @@ body {
 }
 
 /* ###### CARD ###### */
+.t-card {
+    margin: 25px 0;
+}
 /*
 .t-card .af-card-component {
     border: none;
