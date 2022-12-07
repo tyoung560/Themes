@@ -802,6 +802,40 @@ body {
     background-color: #EBF4FB;
 }
 
+.t-ctrl-record-selector .unlink-record {
+    background-color: #c7c7c7;
+    border-radius: 5px;
+    color: #fff;
+    width: 55px;;
+    height: 20px;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.record-search-list-item:hover {
+    cursor: unset;
+}
+
+.record-search-list-item:hover .unlink-record {
+    background-color: #CD574C;
+    cursor: pointer;
+}
+
+.record-search-type-table tr:hover .unlink-record {
+    background-color: #CD574C;
+    cursor: pointer;
+}
+
+.record-search-type-table .unlink-record  {
+    margin: auto;
+}
+.t-ctrl-record-selector .record-search-list-item .unlink-record i {
+    position: absolute;
+    left: 8px;
+    top: 3px;
+}
+
 /* ###### DETAIL ###### */
 .t-detail .form-group:not(:last-child) {
     border-bottom: 1px solid #dbdfea;
