@@ -794,7 +794,7 @@ body {
     margin-bottom: 15px;
 }
 
-.table>caption+thead>tr>th {
+.table-hover>thead>tr>td {
     border-top: 1px solid #ddd !important;
 }
 
@@ -803,11 +803,11 @@ body {
 }
 
 .t-ctrl-record-selector .unlink-record {
-    background-color: #c7c7c7;
-    border-radius: 5px;
+    background-color: #c7c7c7 !important;
+    border-radius: 5px !important;
     color: #fff;
-    width: 65px;
-    height: 20px;
+    width: 65px !important;
+    height: 20px !important;
     font-size: 13px;
     text-align: center;
     padding-top: 1px;
@@ -819,17 +819,17 @@ body {
 }
 
 .record-search-list-item:hover {
-    cursor: unset;
+    cursor: unset !important;
 }
 
 .record-search-list-item:hover .unlink-record {
-    background-color: #CD574C;
-    cursor: pointer;
+    background-color: #CD574C !important;
+    cursor: pointer !important;
 }
 
 .record-search-type-table tr:hover .unlink-record {
-    background-color: #CD574C;
-    cursor: pointer;
+    background-color: #CD574C !important;
+    cursor: pointer !important;
 }
 
 .record-search-type-table .unlink-record  {
@@ -837,8 +837,8 @@ body {
 }
 .t-ctrl-record-selector .record-search-list-item .unlink-record i {
     position: absolute;
-    left: 8px;
-    top: 3px;
+    left: 8px !important;
+    top: 3px !important;
 }
 
 /* ###### DETAIL ###### */
