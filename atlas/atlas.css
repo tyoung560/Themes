@@ -806,11 +806,16 @@ body {
     background-color: #c7c7c7;
     border-radius: 5px;
     color: #fff;
-    width: 55px;;
+    width: 65px;
     height: 20px;
     font-size: 13px;
     text-align: center;
     padding-top: 1px;
+}
+
+.fa-minus:before {
+    content: "Remove";
+    font-family: "Poppins";
 }
 
 .record-search-list-item:hover {
