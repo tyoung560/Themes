@@ -440,11 +440,11 @@ body {
     height:25px;
 } 
 
-.navbar ul>li a {
+/*.navbar ul>li a {
     display: table-cell !important;
     vertical-align: bottom !important;
     height: 25px;
-}
+}*/
 
 
 .navbar li a {
