@@ -720,6 +720,88 @@ body {
     box-shadow: none;
 }
 
+.select2-container--classic .select2-selection--single {
+    background-color: #fff !important;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    outline: 0;
+    background-image: none !important;
+    background-repeat: repeat-x;
+    filter: none !important;
+}
+
+.select2-container--classic .select2-selection--single .select2-selection__arrow {
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 26px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 20px;
+    background-image: none !important;
+    background-repeat: repeat-x;
+    filter: none !important;
+}
+
+.select2-container--classic .select2-selection--single .select2-selection__arrow b {
+    border-color: #555 transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0;
+    height: 0;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+
+.record-selector.drop-down-list .record-search-box {
+    margin: 0 15px 10px;
+}
+
+.record-search-box {
+    position: relative;
+    border-bottom: none !important;
+    margin-bottom: 10px;
+}
+
+.record-search-box input {
+    border: none;
+    box-shadow: none;
+    padding: 8px 10px;
+}
+
+.record-selector.drop-down-list {
+    left: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: 10;
+    padding: 20px 0;
+}
+
+.record-search-list-item {
+    box-shadow: 0 0 0 2px rgb(0 0 0 / 10%);
+    border-radius: 3px;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 15px;
+}
+
+.table>caption+thead>tr>th {
+    border-top: 1px solid #ddd;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #EBF4FB;
+}
+
 /* ###### DETAIL ###### */
 .t-detail .form-group:not(:last-child) {
     border-bottom: 1px solid #dbdfea;
