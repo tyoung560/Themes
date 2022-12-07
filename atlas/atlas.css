@@ -795,7 +795,7 @@ body {
 }
 
 .table>caption+thead>tr>th {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #ddd !important;
 }
 
 .table-hover>tbody>tr:hover {
