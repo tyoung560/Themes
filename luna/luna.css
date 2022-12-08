@@ -515,6 +515,11 @@ body {
     border-radius: 1rem 1rem 0 0;
 }
 
+/* ###### FORM ###### */
+.t-form-name table {
+    width: 100%;
+}
+
 /* ###### CALENDAR ###### */
 .t-calendar a {
     color: #7367f0;

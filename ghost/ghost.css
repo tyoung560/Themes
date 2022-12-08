@@ -484,6 +484,10 @@ input[type='checkbox']:checked:hover:after {
     width: 100%;
 }
 
+.t-form-name table {
+    width: 100%;
+}
+
 /* Detail Component */
 
 .t-detail {

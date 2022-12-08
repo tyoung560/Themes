@@ -510,6 +510,10 @@ body {
     background: #0061FF;  
 }
 
+.t-form-name table {
+    width: 100%;
+}
+
 /* ###### DETAIL COMPONENT ######  */
 
 .t-detail {
