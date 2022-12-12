@@ -571,10 +571,17 @@ body {
     margin-top: 1px !important;
     margin-bottom: 25px !important;
     padding: 0rem 1rem !important;
+    overflow: hidden;
 }
 
 .list-row-item .list-cover {
     margin: unset !important;
+}
+
+.list-cover .img-responsive {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
 }
 
 /* ###### TABLES ######  */
