@@ -564,6 +564,12 @@ body {
     padding: 0px !important;
 }
 
+.list-row-item.list-layout-bordered-box {
+    padding: 0px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 15%);
+    margin: 5px;
+}
+
 .list-row-item {
     background-color: #fff;
     border-radius: 5px;
