@@ -8,6 +8,10 @@
     display: none;
 }
 
+.t-calendar .modal-footer {
+    display: unset !important;
+}
+
 .t-refresh-button {
     margin-left: 0px;
     margin-right: 5px;
