@@ -570,18 +570,18 @@ body {
     border: 1px solid #c7c7c7;
     margin-top: 1px !important;
     margin-bottom: 25px !important;
-    padding: 0rem 1rem !important;
+    padding: 0px;
     overflow: hidden;
-}
-
-.list-row-item .list-cover {
-    margin: unset !important;
 }
 
 .list-cover .img-responsive {
     object-fit: cover;
     height: 300px;
     width: 100%;
+}
+
+.list-body {
+    padding: 1rem;
 }
 
 /* ###### TABLES ######  */
