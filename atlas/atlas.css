@@ -573,6 +573,10 @@ body {
     padding: 0rem 1rem !important;
 }
 
+.list-row-item .list-cover {
+    margin: unset !important;
+}
+
 /* ###### TABLES ######  */
 .t-datatable .table-wrap {
     background-color: transparent;
