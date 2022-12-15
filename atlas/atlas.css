@@ -763,7 +763,7 @@ body .nav-tabs .active.tab-colored a {
     text-align: center;
     padding-top: 1px;
 }
-.fa-minus:before {
+.unlink-record .fa-minus:before {
     content: "Remove";
     font-family: "Poppins";
 }
