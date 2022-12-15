@@ -264,9 +264,8 @@ body {
     }
 
     .app {
-        /*margin-left: 225px;*/
-        padding: 2rem 0 0 2rem;
-        margin: 0 0 0 2rem;
+        padding: 1rem;
+        margin: 15px;
     }
 
     .navbar {
@@ -483,7 +482,6 @@ body {
     border: 1px solid #CED4DA;
     border-radius: 15px;
     box-shadow: none;
-    padding: 20px 10px;
 }
 
 .form-control:focus {
