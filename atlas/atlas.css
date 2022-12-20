@@ -51,12 +51,19 @@ a {
 .t-kanban,
 .t-timeline,
 .t-calendar,
-.t-html,
 .t-pivottable {
     background-color: transparent;
     border-radius: 0px;
     border: none;
     margin-bottom: 25px;
+    padding: 1rem;
+}
+
+.t-html {
+    background-color: transparent;
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 0px;
     padding: 1rem;
 }
 
