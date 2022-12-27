@@ -491,6 +491,11 @@ input[type='checkbox']:checked:hover:after {
     width: 100%;
 }
 
+.form-default-navigation .af-form-submit {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 /* Detail Component */
 
 .t-detail {
