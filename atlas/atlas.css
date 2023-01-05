@@ -813,6 +813,54 @@ body .nav-tabs .active.tab-colored a {
     margin: 25px 0;
 }
 
+/* ###### PIVOT TABLE ###### */
+.t-pivottable {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #c7c7c7;
+    padding: 1rem;
+}
+
+.t-pivottable .table>thead:first-child>tr:first-child>th {
+    border-top: 1px solid #ddd;
+}
+
+.table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border-bottom-width: 0px;
+}
+
+.t-pivottable table {
+    border-collapse: unset;
+    border-spacing: 0
+}
+
+.t-pivottable table > thead > tr > th:first-child {
+    border-radius: 8px 0 0 0;
+}
+.t-pivottable table > thead > tr > th:last-child {
+    border-radius: 0 8px 0 0;
+}
+.t-pivottable table > tbody > tr:last-child > td:first-child {
+    border-radius: 0 0 0 8px;
+}
+.t-pivottable table > tbody > tr:last-child > th:first-child {
+    border-radius: 0 0 0 8px;
+}
+.t-pivottable table > tbody > tr:last-child > td:last-child {
+    border-radius: 0 0 8px 0;
+}
+
+.t-pivottable .table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #ffffff;
+    color: #555;
+}
+
+.t-pivottable table>thead>tr>th {
+    color: #555 !important;
+    vertical-align: bottom;
+    background: #F7F7F7;
+}
+
 /* ###### BUTTONS ###### */
 .t-refresh-button {
     margin-left: 0px;

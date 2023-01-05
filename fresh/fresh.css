@@ -182,8 +182,7 @@ body {
 
     .app {
         /*margin-left: 225px;*/
-        padding: 2rem 0 0 2rem;
-        margin: 0 0 0 2rem;
+        padding-top: 2rem;
     }
 
     .navbar {
