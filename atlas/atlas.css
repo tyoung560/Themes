@@ -834,6 +834,10 @@ body .nav-tabs .active.tab-colored a {
     border-spacing: 0
 }
 
+.t-pivottable table > tbody > tr:hover {
+    background: none;
+}
+
 .t-pivottable table > thead > tr > th:first-child {
     border-radius: 8px 0 0 0;
 }
