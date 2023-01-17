@@ -813,6 +813,14 @@ body .nav-tabs .active.tab-colored a {
     margin: 25px 0;
 }
 
+/* ###### CHART ###### */
+.t-chart {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #c7c7c7;
+    padding: 1rem;
+}
+
 /* ###### PIVOT TABLE ###### */
 .t-pivottable {
     background-color: #fff;
