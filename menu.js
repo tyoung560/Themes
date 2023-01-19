@@ -1,4 +1,4 @@
-TB.themeRender(function ($) {
+function checkAndUpdate(){
   if (window.matchMedia('(min-width: 768px)').matches) {
     var verticalNav = document.getElementsByClassName(
       'x-menu-style-vertical'
@@ -31,7 +31,31 @@ TB.themeRender(function ($) {
       });
 
     } else {
-      console.log('horizontal menu');
+      $(".app").css({
+        "margin-left": "auto"
+      });
     }
   }
+}
+
+TB.themeRender(function ($) {
+  checkAndUpdate();
 });
+var observeUrlChange = () => {
+    var oldHref = document.location.href;
+    var body = document.querySelector("body");
+    var observer = new MutationObserver(mutations => {
+      mutations.forEach(() => {
+        if (oldHref !== document.location.href) {
+          oldHref = document.location.href;
+          checkAndUpdate();
+        }
+      });
+    });
+    observer.observe(body, {
+      childList: true,
+      subtree: true
+    });
+  };
+
+  window.onload = observeUrlChange;
