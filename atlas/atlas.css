@@ -70,6 +70,7 @@ a {
 /* ############ GLOBALS ############## */
 .t-pagecontainer {
     border-top: 1px solid #c7c7c7;
+    padding-top: 20px;
 }
 .t-pagecontainer .t-row {
     margin-bottom: 25px;
@@ -801,6 +802,12 @@ body .nav-tabs .active.tab-colored a {
 }
 
 /* ###### CALENDAR ###### */
+.t-calendar {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #c7c7c7;
+    padding: 1rem;
+}
 .t-calendar a {
     color: #7367f0;
 }
