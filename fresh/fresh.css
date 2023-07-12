@@ -155,7 +155,7 @@ body {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
     text-decoration: none;
-    color: #323377 !important;
+    color: #323377;
     background-color: #fff;
     border-radius: 10px;
 }
