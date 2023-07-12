@@ -215,6 +215,25 @@ body {
     margin-top: 25px;
 }
 
+/* ###### BREADCRUMB ###### */
+.breadcrumb-wrap {
+    margin-bottom: 15px;
+}
+
+.breadcrumb {
+    background: transparent;
+    margin: 0;
+    height: 40px;
+    line-height: 20px;    
+}
+
+.breadcrumb li a {
+    color: #0061FF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
 /* ####### MENU ####### */
 .navbar {
     background: #0061FF;
@@ -233,7 +252,11 @@ body {
 }
 
 /* MENU ITEM HOVER */
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active a {
     text-decoration: none;
     color: #0061FF !important;
     background-color: #fff;
@@ -242,7 +265,8 @@ body {
 
 /* DROPDOWN MENU ITEM HOVER */
 .navbar-default .dropdown-menu>li>a:hover,
-.navbar-default .dropdown-menu>li>a:focus {
+.navbar-default .dropdown-menu>li>a:focus,
+.navbar-default .dropdown-menu>.active a {
     text-decoration: none;
     color: #0061FF !important;
     background-color: #fff;
