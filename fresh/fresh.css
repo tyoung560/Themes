@@ -146,11 +146,16 @@ body {
 
 /* DROPDOWN MENU BACKGROUND COLOR */
 .navbar-default .dropdown-menu>li>a {
-    background: #323377;
+    background: #fff;
+    color: #323377 !important;
 }
 
 /* MENU ITEM HOVER */
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active a {
     text-decoration: none;
     color: #323377 !important;
     background-color: #fff;
@@ -159,10 +164,11 @@ body {
 
 /* DROPDOWN MENU ITEM HOVER */
 .navbar-default .dropdown-menu>li>a:hover,
-.navbar-default .dropdown-menu>li>a:focus {
+.navbar-default .dropdown-menu>li>a:focus,
+.navbar-default .dropdown-menu>.active a {
     text-decoration: none;
-    color: #323377 !important;
-    background-color: #fff;
+    color: #fff !important;
+    background-color: #323377;
     border-radius: 10px;
 }
 
