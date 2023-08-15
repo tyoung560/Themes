@@ -76,6 +76,12 @@ a {
     margin-bottom: 25px;
 }
 
+.hit-tb-files {
+    overflow: scroll;
+    min-height: 150px;
+    height: 150px;
+}
+
 /* ###### BACKGROUND ###### */
 body {
     background-color: #F6F6F6;
